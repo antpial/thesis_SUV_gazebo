@@ -363,9 +363,6 @@ WaveVisual_LIB_DEPENDS:STATIC=general;gz-plugin2::gz-plugin2;general;gz-renderin
 Waves_LIB_DEPENDS:STATIC=general;gz-common5::gz-common5;general;gz-msgs10::gz-msgs10;
 
 //Path to a library.
-YAML_LIBRARY_yaml:FILEPATH=/usr/lib/x86_64-linux-gnu/libyaml.so
-
-//Path to a library.
 ZIP_LIBRARY_zip:FILEPATH=/usr/lib/x86_64-linux-gnu/libzip.so
 
 //The directory containing a CMake configuration file for ZeroMQ.
@@ -567,9 +564,6 @@ pkgcfg_lib_TINYXML2_tinyxml2:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
 pkgcfg_lib_UUID_uuid:FILEPATH=/usr/lib/x86_64-linux-gnu/libuuid.so
 
 //Path to a library.
-pkgcfg_lib_YAML_yaml:FILEPATH=/usr/lib/x86_64-linux-gnu/libyaml.so
-
-//Path to a library.
 pkgcfg_lib_ZIP_zip:FILEPATH=/usr/lib/x86_64-linux-gnu/libzip.so
 
 //Path to a library.
@@ -579,7 +573,7 @@ pkgcfg_lib_ZeroMQ_zmq:FILEPATH=/usr/lib/x86_64-linux-gnu/libzmq.so
 sdformat14_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/sdformat14
 
 //The directory containing a CMake configuration file for yaml.
-yaml_DIR:PATH=yaml_DIR-NOTFOUND
+yaml_DIR:PATH=/opt/ros/humble/cmake
 
 
 ########################
@@ -917,8 +911,6 @@ FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3.10][cfound compo
 FIND_PACKAGE_MESSAGE_DETAILS_SWSCALE:INTERNAL=[TRUE][v()]
 //Details about finding UUID
 FIND_PACKAGE_MESSAGE_DETAILS_UUID:INTERNAL=[TRUE][v()]
-//Details about finding YAML
-FIND_PACKAGE_MESSAGE_DETAILS_YAML:INTERNAL=[TRUE][v()]
 //Details about finding ZIP
 FIND_PACKAGE_MESSAGE_DETAILS_ZIP:INTERNAL=[TRUE][v()]
 //Details about finding ZeroMQ
@@ -1137,41 +1129,6 @@ UUID_uuid_INCLUDEDIR:INTERNAL=
 UUID_uuid_LIBDIR:INTERNAL=
 UUID_uuid_PREFIX:INTERNAL=
 UUID_uuid_VERSION:INTERNAL=
-YAML_CFLAGS:INTERNAL=
-YAML_CFLAGS_I:INTERNAL=
-YAML_CFLAGS_OTHER:INTERNAL=
-YAML_INCLUDEDIR:INTERNAL=/usr/include
-YAML_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lyaml
-YAML_LDFLAGS_OTHER:INTERNAL=
-YAML_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
-YAML_LIBRARIES:INTERNAL=yaml
-YAML_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
-//ADVANCED property for variable: YAML_LIBRARY_yaml
-YAML_LIBRARY_yaml-ADVANCED:INTERNAL=1
-YAML_LIBS:INTERNAL=
-YAML_LIBS_L:INTERNAL=
-YAML_LIBS_OTHER:INTERNAL=
-YAML_LIBS_PATHS:INTERNAL=
-YAML_MODULE_NAME:INTERNAL=yaml-0.1
-YAML_PREFIX:INTERNAL=/usr
-YAML_STATIC_CFLAGS:INTERNAL=
-YAML_STATIC_CFLAGS_I:INTERNAL=
-YAML_STATIC_CFLAGS_OTHER:INTERNAL=
-YAML_STATIC_INCLUDE_DIRS:INTERNAL=
-YAML_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lyaml
-YAML_STATIC_LDFLAGS_OTHER:INTERNAL=
-YAML_STATIC_LIBDIR:INTERNAL=
-YAML_STATIC_LIBRARIES:INTERNAL=yaml
-YAML_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
-YAML_STATIC_LIBS:INTERNAL=
-YAML_STATIC_LIBS_L:INTERNAL=
-YAML_STATIC_LIBS_OTHER:INTERNAL=
-YAML_STATIC_LIBS_PATHS:INTERNAL=
-YAML_VERSION:INTERNAL=0.2.2
-YAML_yaml-0.1_INCLUDEDIR:INTERNAL=
-YAML_yaml-0.1_LIBDIR:INTERNAL=
-YAML_yaml-0.1_PREFIX:INTERNAL=
-YAML_yaml-0.1_VERSION:INTERNAL=
 ZIP_CFLAGS:INTERNAL=
 ZIP_CFLAGS_I:INTERNAL=
 ZIP_CFLAGS_OTHER:INTERNAL=
@@ -1257,7 +1214,6 @@ __pkg_config_arguments_PC_CURL:INTERNAL=QUIET;libcurl
 __pkg_config_arguments_SWSCALE:INTERNAL=libswscale
 __pkg_config_arguments_TINYXML2:INTERNAL=tinyxml2
 __pkg_config_arguments_UUID:INTERNAL=uuid
-__pkg_config_arguments_YAML:INTERNAL=yaml-0.1
 __pkg_config_arguments_ZIP:INTERNAL=libzip
 __pkg_config_arguments_ZeroMQ:INTERNAL=libzmq >= 4
 __pkg_config_checked_AVCODEC:INTERNAL=1
@@ -1269,7 +1225,6 @@ __pkg_config_checked_PC_CURL:INTERNAL=1
 __pkg_config_checked_SWSCALE:INTERNAL=1
 __pkg_config_checked_TINYXML2:INTERNAL=1
 __pkg_config_checked_UUID:INTERNAL=1
-__pkg_config_checked_YAML:INTERNAL=1
 __pkg_config_checked_ZIP:INTERNAL=1
 __pkg_config_checked_ZeroMQ:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_AVCODEC_avcodec
@@ -1290,8 +1245,6 @@ pkgcfg_lib_SWSCALE_swscale-ADVANCED:INTERNAL=1
 pkgcfg_lib_TINYXML2_tinyxml2-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_UUID_uuid
 pkgcfg_lib_UUID_uuid-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_YAML_yaml
-pkgcfg_lib_YAML_yaml-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_ZIP_zip
 pkgcfg_lib_ZIP_zip-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_ZeroMQ_zmq

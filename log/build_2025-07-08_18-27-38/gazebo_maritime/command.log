@@ -1,2 +1,0 @@
-Invoking command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime': /usr/bin/cmake /home/antoni/gazebo_maritime_ws/src/gazebo_maritime -DCMAKE_INSTALL_PREFIX=/home/antoni/gazebo_maritime_ws/install
-Invoked command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime' returned '1': /usr/bin/cmake /home/antoni/gazebo_maritime_ws/src/gazebo_maritime -DCMAKE_INSTALL_PREFIX=/home/antoni/gazebo_maritime_ws/install

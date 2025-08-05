@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: teleop-twist-keyboard
+Version: 2.4.0
+Summary: A robot-agnostic teleoperation node to convert keyboard commands to thrust.
+Home-page: UNKNOWN
+Maintainer: Chris Lalancette
+Maintainer-email: clalancette@openrobotics.org
+License: BSD
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

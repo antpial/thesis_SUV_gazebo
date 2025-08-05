@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/teleop_nav/teleop_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/teleop_nav/teleop_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/teleop_nav/teleop_nav.egg-info/entry_points.txt
+writing requirements to ../../build/teleop_nav/teleop_nav.egg-info/requires.txt
+writing top-level names to ../../build/teleop_nav/teleop_nav.egg-info/top_level.txt
+reading manifest file '../../build/teleop_nav/teleop_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/teleop_nav/teleop_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/antoni/gazebo_maritime_ws/install/share/teleop_nav/launch
+copying launch/bridge_launch.py -> /home/antoni/gazebo_maritime_ws/install/share/teleop_nav/launch
+running install_egg_info
+removing '/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/teleop_nav/teleop_nav.egg-info to /home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teleop_nav script to /home/antoni/gazebo_maritime_ws/install/lib/teleop_nav
+writing list of installed files to '/home/antoni/gazebo_maritime_ws/build/teleop_nav/install.log'

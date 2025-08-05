@@ -1,0 +1,9 @@
+source;share/teleop_nav/hook/ld_library_path_lib.ps1
+source;share/teleop_nav/hook/ld_library_path_lib.dsv
+source;share/teleop_nav/hook/ld_library_path_lib.sh
+source;share/teleop_nav/hook/pythonpath.ps1
+source;share/teleop_nav/hook/pythonpath.dsv
+source;share/teleop_nav/hook/pythonpath.sh
+source;share/teleop_nav/hook/ament_prefix_path.ps1
+source;share/teleop_nav/hook/ament_prefix_path.dsv
+source;share/teleop_nav/hook/ament_prefix_path.sh

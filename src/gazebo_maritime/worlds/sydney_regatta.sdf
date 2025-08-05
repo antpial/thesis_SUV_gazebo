@@ -424,11 +424,11 @@
     </plugin>
 
     <!-- Uncomment this block to load the WAM-V model-->
-    <!-- <include>
-      <name>wam-V</name>
+    <include>
+      <name>wamV</name>
       <pose>-532 162 0 0 0 1</pose>
       <uri>wam-v</uri>
-    </include> -->
+    </include>
 
   </world>
 </sdf>

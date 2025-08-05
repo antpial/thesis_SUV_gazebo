@@ -1,0 +1,36 @@
+[0.036s] Invoking command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime': /usr/bin/cmake --build /home/antoni/gazebo_maritime_ws/build/gazebo_maritime -- -j12 -l12
+[0.178s] [ 25%] Built target Waves
+[0.213s] [ 50%] Built target PublisherPlugin
+[0.213s] [ 75%] Built target Surface
+[0.222s] [100%] Built target WaveVisual
+[0.370s] Invoked command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime' returned '0': /usr/bin/cmake --build /home/antoni/gazebo_maritime_ws/build/gazebo_maritime -- -j12 -l12
+[0.400s] Invoking command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime': /usr/bin/cmake --install /home/antoni/gazebo_maritime_ws/build/gazebo_maritime
+[0.427s] -- Install configuration: ""
+[0.428s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/lib/libWaves.so
+[0.429s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/lib/libPublisherPlugin.so
+[0.431s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/lib/libSurface.so
+[0.432s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/lib/libWaveVisual.so
+[0.434s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models
+[0.435s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves
+[0.436s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/meshes
+[0.436s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/meshes/waterlow.dae
+[0.436s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/model.sdf
+[0.437s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials
+[0.437s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures
+[0.437s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures/skybox_lowres.dds
+[0.437s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures/wave_normals.dds
+[0.437s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs
+[0.438s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs/GerstnerWaves_fs_330.glsl
+[0.438s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs/GerstnerWaves_vs_330.glsl
+[0.438s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/model.config
+[0.438s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v
+[0.439s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes
+[0.439s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/WAM-V-Base.dae
+[0.440s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/engine.dae
+[0.441s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/WamV.png
+[0.441s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/propeller.dae
+[0.441s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/model.sdf
+[0.442s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/model.config
+[0.442s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/worlds
+[0.442s] -- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/worlds/sydney_regatta.sdf
+[0.445s] Invoked command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime' returned '0': /usr/bin/cmake --install /home/antoni/gazebo_maritime_ws/build/gazebo_maritime

@@ -1,0 +1,316 @@
+[0.007s] Invoking command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime': /usr/bin/cmake /home/antoni/gazebo_maritime_ws/src/gazebo_maritime -DCMAKE_INSTALL_PREFIX=/home/antoni/gazebo_maritime_ws/install
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.210s] -- Detecting CXX compiler ABI info
+[0.303s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.312s] -- Detecting CXX compile features
+[0.312s] -- Detecting CXX compile features - done
+[0.314s] -- Looking for gz-sim8 -- found version 8.9.0
+[0.319s] -- Searching for dependencies of gz-sim8
+[0.320s] -- Looking for sdformat14 -- found version 14.8.0
+[0.320s] -- Searching for dependencies of sdformat14
+[0.325s] -- Checking for module 'tinyxml2'
+[0.341s] --   Found tinyxml2, version 9.0.0
+[0.391s] -- Looking for gz-math7 -- found version 7.5.1
+[0.391s] -- Searching for dependencies of gz-math7
+[0.393s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.394s] -- Searching for dependencies of gz-utils2
+[0.395s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.395s] -- Searching for dependencies of gz-utils2
+[0.396s] -- Searching for <gz-utils2> component [cli]
+[0.397s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[0.397s] -- Searching for dependencies of gz-utils2-cli
+[0.399s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.399s] -- Searching for dependencies of gz-plugin2
+[0.399s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.400s] -- Searching for <gz-plugin2> component [loader]
+[0.401s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[0.401s] -- Searching for dependencies of gz-plugin2-loader
+[0.401s] -- Searching for <gz-plugin2> component [register]
+[0.402s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[0.402s] -- Searching for dependencies of gz-plugin2-register
+[0.403s] -- Looking for gz-transport13 -- found version 13.4.1
+[0.403s] -- Searching for dependencies of gz-transport13
+[0.585s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.594s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.597s] -- Checking for module 'libzmq >= 4'
+[0.612s] --   Found libzmq , version 4.3.4
+[0.659s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.667s] -- Checking for module 'uuid'
+[0.683s] --   Found uuid, version 2.37.2
+[0.724s] -- Found UUID: TRUE  
+[0.725s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.727s] -- Looking for gz-msgs10 -- found version 10.3.2
+[0.728s] -- Searching for dependencies of gz-msgs10
+[0.749s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.750s] -- Looking for gz-math7 -- found version 7.5.1
+[0.915s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.916s] -- Searching for <gz-transport13> component [log]
+[0.917s] -- Looking for gz-transport13-log -- found version 13.4.1
+[0.917s] -- Searching for dependencies of gz-transport13-log
+[0.918s] -- Searching for <gz-transport13> component [parameters]
+[0.919s] -- Looking for gz-transport13-parameters -- found version 13.4.1
+[0.919s] -- Searching for dependencies of gz-transport13-parameters
+[0.920s] -- Looking for gz-msgs10 -- found version 10.3.2
+[0.921s] -- Looking for gz-common5 -- found version 5.7.1
+[0.921s] -- Searching for dependencies of gz-common5
+[0.921s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.922s] -- Looking for dlfcn.h - found
+[0.922s] -- Looking for libdl - found
+[0.924s] -- Found DL: TRUE  
+[0.931s] -- Searching for <gz-common5> component [av]
+[0.932s] -- Looking for gz-common5-av -- found version 5.7.1
+[0.932s] -- Searching for dependencies of gz-common5-av
+[0.938s] -- Checking for module 'libswscale'
+[0.956s] --   Found libswscale, version 5.9.100
+[1.003s] -- Found SWSCALE: TRUE  
+[1.010s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.026s] --   Found libavdevice , version 58.13.100
+[1.076s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[1.083s] -- Checking for module 'libavformat'
+[1.098s] --   Found libavformat, version 58.76.100
+[1.143s] -- Found AVFORMAT: TRUE  
+[1.150s] -- Checking for module 'libavcodec'
+[1.168s] --   Found libavcodec, version 58.134.100
+[1.214s] -- Found AVCODEC: TRUE  
+[1.220s] -- Checking for module 'libavutil'
+[1.237s] --   Found libavutil, version 56.70.100
+[1.283s] -- Found AVUTIL: TRUE  
+[1.284s] -- Searching for <gz-common5> component [events]
+[1.286s] -- Looking for gz-common5-events -- found version 5.7.1
+[1.286s] -- Searching for dependencies of gz-common5-events
+[1.287s] -- Looking for gz-math7 -- found version 7.5.1
+[1.287s] -- Searching for <gz-common5> component [graphics]
+[1.289s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[1.289s] -- Searching for dependencies of gz-common5-graphics
+[1.290s] -- Looking for gz-math7 -- found version 7.5.1
+[1.295s] -- Found GzAssimp: TRUE (found version "5.2.0") 
+[1.296s] -- Searching for <gz-common5> component [io]
+[1.298s] -- Looking for gz-common5-io -- found version 5.7.1
+[1.298s] -- Searching for dependencies of gz-common5-io
+[1.298s] -- Searching for <gz-common5> component [profiler]
+[1.300s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[1.300s] -- Searching for dependencies of gz-common5-profiler
+[1.301s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[1.301s] -- Searching for dependencies of gz-fuel_tools9
+[1.393s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.402s] -- Checking for module 'jsoncpp'
+[1.417s] --   Found jsoncpp, version 1.9.5
+[1.462s] -- Found JSONCPP: TRUE  
+[1.470s] -- Checking for module 'libzip'
+[1.487s] --   Found libzip, version 1.7.3
+[1.531s] -- Found ZIP: TRUE  
+[1.531s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.532s] -- Looking for gz-common5 -- found version 5.7.1
+[1.532s] -- Searching for dependencies of gz-common5
+[1.533s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.533s] -- Looking for dlfcn.h - found
+[1.533s] -- Looking for libdl - found
+[1.544s] -- Searching for <gz-common5> component [testing]
+[1.545s] -- Looking for gz-common5-testing -- found version 5.7.1
+[1.546s] -- Searching for dependencies of gz-common5-testing
+[1.547s] -- Looking for gz-math7 -- found version 7.5.1
+[1.547s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.549s] -- Looking for gz-gui8 -- found version 8.4.0
+[1.549s] -- Searching for dependencies of gz-gui8
+[1.566s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.566s] -- Looking for gz-math7 -- found version 7.5.1
+[1.567s] -- Looking for gz-common5 -- found version 5.7.1
+[1.567s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.567s] -- Looking for gz-transport13 -- found version 13.4.1
+[1.569s] -- Looking for gz-rendering8 -- found version 8.2.2
+[1.570s] -- Searching for dependencies of gz-rendering8
+[1.570s] -- Looking for gz-math7 -- found version 7.5.1
+[1.571s] -- Searching for dependencies of gz-math7
+[1.571s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.571s] -- Searching for <gz-math7> component [eigen3]
+[1.572s] -- Looking for gz-math7-eigen3 -- found version 7.5.1
+[1.572s] -- Searching for dependencies of gz-math7-eigen3
+[1.577s] -- Looking for gz-common5 -- found version 5.7.1
+[1.577s] -- Searching for dependencies of gz-common5
+[1.577s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.577s] -- Looking for dlfcn.h - found
+[1.577s] -- Looking for libdl - found
+[1.583s] -- Searching for <gz-common5> component [graphics]
+[1.583s] -- Searching for <gz-common5> component [events]
+[1.583s] -- Searching for <gz-common5> component [geospatial]
+[1.584s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[1.584s] -- Searching for dependencies of gz-common5-geospatial
+[1.584s] -- Looking for gz-math7 -- found version 7.5.1
+[1.585s] -- Looking for gz-common5 -- found version 5.7.1
+[1.585s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.585s] -- Searching for dependencies of gz-plugin2
+[1.586s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.586s] -- Searching for <gz-plugin2> component [all]
+[1.586s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[1.587s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.588s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.590s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[1.591s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.601s] -- Looking for gz-physics7 -- found version 7.5.0
+[1.601s] -- Searching for dependencies of gz-physics7
+[1.601s] -- Looking for gz-common5 -- found version 5.7.1
+[1.601s] -- Looking for gz-math7 -- found version 7.5.1
+[1.602s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.602s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.603s] -- Searching for <gz-physics7> component [heightmap]
+[1.603s] -- Looking for gz-physics7-heightmap -- found version 7.5.0
+[1.603s] -- Searching for dependencies of gz-physics7-heightmap
+[1.604s] -- Looking for gz-common5 -- found version 5.7.1
+[1.604s] -- Searching for <gz-physics7> component [mesh]
+[1.605s] -- Looking for gz-physics7-mesh -- found version 7.5.0
+[1.605s] -- Searching for dependencies of gz-physics7-mesh
+[1.605s] -- Looking for gz-common5 -- found version 5.7.1
+[1.605s] -- Searching for <gz-physics7> component [sdf]
+[1.606s] -- Looking for gz-physics7-sdf -- found version 7.5.0
+[1.606s] -- Searching for dependencies of gz-physics7-sdf
+[1.607s] -- Looking for sdformat14 -- found version 14.8.0
+[1.608s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.608s] -- Searching for dependencies of gz-sensors8
+[1.620s] -- Looking for gz-math7 -- found version 7.5.1
+[1.620s] -- Looking for gz-common5 -- found version 5.7.1
+[1.621s] -- Looking for gz-transport13 -- found version 13.4.1
+[1.621s] -- Looking for gz-rendering8 -- found version 8.2.2
+[1.621s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.622s] -- Looking for sdformat14 -- found version 14.8.0
+[1.622s] -- Searching for <gz-sensors8> component [air_pressure]
+[1.624s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[1.624s] -- Searching for dependencies of gz-sensors8-air_pressure
+[1.624s] -- Searching for <gz-sensors8> component [air_speed]
+[1.626s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[1.626s] -- Searching for dependencies of gz-sensors8-air_speed
+[1.627s] -- Searching for <gz-sensors8> component [altimeter]
+[1.628s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[1.629s] -- Searching for dependencies of gz-sensors8-altimeter
+[1.629s] -- Searching for <gz-sensors8> component [imu]
+[1.630s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[1.630s] -- Searching for dependencies of gz-sensors8-imu
+[1.630s] -- Searching for <gz-sensors8> component [force_torque]
+[1.631s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[1.631s] -- Searching for dependencies of gz-sensors8-force_torque
+[1.632s] -- Searching for <gz-sensors8> component [logical_camera]
+[1.632s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[1.633s] -- Searching for dependencies of gz-sensors8-logical_camera
+[1.633s] -- Searching for <gz-sensors8> component [magnetometer]
+[1.634s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[1.634s] -- Searching for dependencies of gz-sensors8-magnetometer
+[1.634s] -- Searching for <gz-sensors8> component [navsat]
+[1.635s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[1.635s] -- Searching for dependencies of gz-sensors8-navsat
+[1.635s] -- Searching for <gz-sensors8> component [dvl]
+[1.636s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[1.636s] -- Searching for dependencies of gz-sensors8-dvl
+[1.637s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.637s] -- Searching for dependencies of gz-sensors8
+[1.650s] -- Looking for gz-math7 -- found version 7.5.1
+[1.650s] -- Looking for gz-common5 -- found version 5.7.1
+[1.651s] -- Looking for gz-transport13 -- found version 13.4.1
+[1.651s] -- Looking for gz-rendering8 -- found version 8.2.2
+[1.652s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.652s] -- Looking for sdformat14 -- found version 14.8.0
+[1.652s] -- Searching for <gz-sensors8> component [rendering]
+[1.654s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[1.654s] -- Searching for dependencies of gz-sensors8-rendering
+[1.655s] -- Searching for <gz-sensors8> component [rendering]
+[1.655s] -- Searching for <gz-sensors8> component [lidar]
+[1.657s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[1.657s] -- Searching for dependencies of gz-sensors8-lidar
+[1.657s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.658s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[1.658s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[1.659s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[1.659s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.659s] -- Searching for <gz-sensors8> component [camera]
+[1.660s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[1.660s] -- Searching for dependencies of gz-sensors8-camera
+[1.660s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.661s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[1.661s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[1.662s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[1.662s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[1.663s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[1.663s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[1.663s] -- Searching for <gz-sensors8> component [depth_camera]
+[1.664s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[1.664s] -- Searching for dependencies of gz-sensors8-depth_camera
+[1.664s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.665s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[1.666s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[1.666s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[1.666s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.666s] -- Searching for <gz-sensors8> component [thermal_camera]
+[1.667s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[1.667s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[1.668s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.668s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[1.669s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[1.669s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[1.670s] -- Looking for gz-rendering8 -- found version 8.2.2
+[1.670s] -- Looking for gz-math7 -- found version 7.5.1
+[1.670s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.682s] -- Looking for gz-common5 -- found version 5.7.1
+[1.682s] -- Looking for gz-math7 -- found version 7.5.1
+[1.683s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.683s] -- Looking for gz-transport13 -- found version 13.4.1
+[1.683s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.683s] -- Looking for gz-rendering8 -- found version 8.2.2
+[1.684s] -- Looking for gz-sensors8 -- found version 8.2.2
+[1.684s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.684s] -- Looking for sdformat14 -- found version 14.8.0
+[1.684s] -- Configuring done
+[1.694s] -- Generating done
+[1.697s] -- Build files have been written to: /home/antoni/gazebo_maritime_ws/build/gazebo_maritime
+[1.705s] Invoked command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime' returned '0': /usr/bin/cmake /home/antoni/gazebo_maritime_ws/src/gazebo_maritime -DCMAKE_INSTALL_PREFIX=/home/antoni/gazebo_maritime_ws/install
+[1.707s] Invoking command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime': /usr/bin/cmake --build /home/antoni/gazebo_maritime_ws/build/gazebo_maritime -- -j12 -l12
+[1.759s] [ 12%] [32mBuilding CXX object CMakeFiles/Waves.dir/src/Wavefield.cc.o[0m
+[3.669s] [ 25%] [32m[1mLinking CXX shared library libWaves.so[0m
+[3.806s] [ 25%] Built target Waves
+[3.821s] [ 37%] [32mBuilding CXX object CMakeFiles/PublisherPlugin.dir/src/PublisherPlugin.cc.o[0m
+[3.825s] [ 50%] [32mBuilding CXX object CMakeFiles/Surface.dir/src/Surface.cc.o[0m
+[3.826s] [ 62%] [32mBuilding CXX object CMakeFiles/WaveVisual.dir/src/WaveVisual.cc.o[0m
+[5.871s] [ 75%] [32m[1mLinking CXX shared library libPublisherPlugin.so[0m
+[6.020s] [ 75%] Built target PublisherPlugin
+[6.981s] [ 87%] [32m[1mLinking CXX shared library libSurface.so[0m
+[7.187s] [ 87%] Built target Surface
+[7.871s] [100%] [32m[1mLinking CXX shared library libWaveVisual.so[0m
+[8.060s] [100%] Built target WaveVisual
+[8.070s] Invoked command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime' returned '0': /usr/bin/cmake --build /home/antoni/gazebo_maritime_ws/build/gazebo_maritime -- -j12 -l12
+[8.085s] Invoking command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime': /usr/bin/cmake --install /home/antoni/gazebo_maritime_ws/build/gazebo_maritime
+[8.094s] -- Install configuration: ""
+[8.094s] -- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libWaves.so
+[8.095s] -- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libPublisherPlugin.so
+[8.096s] -- Set runtime path of "/home/antoni/gazebo_maritime_ws/install/lib/libPublisherPlugin.so" to ""
+[8.096s] -- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libSurface.so
+[8.097s] -- Set runtime path of "/home/antoni/gazebo_maritime_ws/install/lib/libSurface.so" to ""
+[8.097s] -- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libWaveVisual.so
+[8.098s] -- Set runtime path of "/home/antoni/gazebo_maritime_ws/install/lib/libWaveVisual.so" to ""
+[8.098s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models
+[8.098s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves
+[8.098s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/meshes
+[8.098s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/meshes/waterlow.dae
+[8.104s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/model.sdf
+[8.105s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials
+[8.105s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures
+[8.105s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures/skybox_lowres.dds
+[8.105s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures/wave_normals.dds
+[8.105s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs
+[8.105s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs/GerstnerWaves_fs_330.glsl
+[8.105s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs/GerstnerWaves_vs_330.glsl
+[8.105s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/model.config
+[8.105s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v
+[8.105s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes
+[8.105s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/WAM-V-Base.dae
+[8.106s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/engine.dae
+[8.106s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/WamV.png
+[8.106s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/propeller.dae
+[8.107s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/model.sdf
+[8.107s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/model.config
+[8.107s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/worlds
+[8.107s] -- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/worlds/sydney_regatta.sdf
+[8.108s] Invoked command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime' returned '0': /usr/bin/cmake --install /home/antoni/gazebo_maritime_ws/build/gazebo_maritime

@@ -1,0 +1,183 @@
+[0.146s] DEBUG:colcon:Command line arguments: ['/home/antoni/.local/bin/colcon', 'build', '--merge-install']
+[0.146s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73e43dd41150>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73e43dd40c40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73e43dd40c40>>, mixin_verb=('build',))
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.419s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/antoni/gazebo_maritime_ws'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extension 'cmake'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_maritime) by extension 'python'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_maritime' with type 'cmake' and name 'gazebo_maritime'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_nav) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_nav) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_nav) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_nav) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_nav) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_nav) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_nav) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_nav) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_nav' with type 'ros.ament_python' and name 'teleop_nav'
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.455s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/antoni/gazebo_maritime_ws/install
+[0.456s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'gazebo_maritime' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'gazebo_maritime' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'gazebo_maritime' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'gazebo_maritime' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'gazebo_maritime' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'gazebo_maritime' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'gazebo_maritime' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'gazebo_maritime' build argument 'catkin_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'gazebo_maritime' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.507s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_maritime' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antoni/gazebo_maritime_ws/install', 'merge_install': True, 'path': '/home/antoni/gazebo_maritime_ws/src/gazebo_maritime', 'symlink_install': False, 'test_result_base': None}
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'teleop_nav' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'teleop_nav' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'teleop_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'teleop_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'teleop_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'teleop_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'teleop_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'teleop_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'teleop_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.508s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antoni/gazebo_maritime_ws/build/teleop_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antoni/gazebo_maritime_ws/install', 'merge_install': True, 'path': '/home/antoni/gazebo_maritime_ws/src/teleop_nav', 'symlink_install': False, 'test_result_base': None}
+[0.508s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.509s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.509s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/antoni/gazebo_maritime_ws/src/gazebo_maritime'
+[0.512s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.515s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/antoni/gazebo_maritime_ws/src/teleop_nav' with build type 'ament_python'
+[0.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_nav', 'ament_prefix_path')
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/hook/ament_prefix_path.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/hook/ament_prefix_path.dsv'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/hook/ament_prefix_path.sh'
+[0.518s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.518s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime': /usr/bin/cmake --build /home/antoni/gazebo_maritime_ws/build/gazebo_maritime -- -j12 -l12
+[0.792s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/antoni/gazebo_maritime_ws/src/teleop_nav'
+[0.792s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.792s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antoni/gazebo_maritime_ws/src/teleop_nav': PYTHONPATH=/home/antoni/gazebo_maritime_ws/build/teleop_nav/prefix_override:/home/antoni/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_nav build --build-base /home/antoni/gazebo_maritime_ws/build/teleop_nav/build install --record /home/antoni/gazebo_maritime_ws/build/teleop_nav/install.log --single-version-externally-managed install_data
+[1.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antoni/gazebo_maritime_ws/src/teleop_nav' returned '0': PYTHONPATH=/home/antoni/gazebo_maritime_ws/build/teleop_nav/prefix_override:/home/antoni/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_nav build --build-base /home/antoni/gazebo_maritime_ws/build/teleop_nav/build install --record /home/antoni/gazebo_maritime_ws/build/teleop_nav/install.log --single-version-externally-managed install_data
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install' for CMake module files
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install' for CMake config files
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install/lib'
+[1.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_nav', 'ld_library_path_lib')
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/hook/ld_library_path_lib.ps1'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/hook/ld_library_path_lib.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/hook/ld_library_path_lib.sh'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install/bin'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install/lib/pkgconfig/teleop_nav.pc'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages'
+[1.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_nav', 'pythonpath')
+[1.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/hook/pythonpath.ps1'
+[1.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/hook/pythonpath.dsv'
+[1.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/hook/pythonpath.sh'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install/bin'
+[1.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_nav)
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/package.ps1'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/package.dsv'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/package.sh'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/package.bash'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoni/gazebo_maritime_ws/install/share/teleop_nav/package.zsh'
+[1.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antoni/gazebo_maritime_ws/install/share/colcon-core/packages/teleop_nav)
+[16.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime' returned '0': /usr/bin/cmake --build /home/antoni/gazebo_maritime_ws/build/gazebo_maritime -- -j12 -l12
+[16.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime': /usr/bin/cmake --install /home/antoni/gazebo_maritime_ws/build/gazebo_maritime
+[16.193s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_maritime)
+[16.193s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install' for CMake module files
+[16.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime' returned '0': /usr/bin/cmake --install /home/antoni/gazebo_maritime_ws/build/gazebo_maritime
+[16.194s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install' for CMake config files
+[16.196s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install/lib'
+[16.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_maritime', 'ld_library_path_lib')
+[16.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/hook/ld_library_path_lib.ps1'
+[16.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/hook/ld_library_path_lib.dsv'
+[16.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/hook/ld_library_path_lib.sh'
+[16.198s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install/bin'
+[16.198s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install/lib/pkgconfig/gazebo_maritime.pc'
+[16.199s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages'
+[16.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_maritime', 'pythonpath')
+[16.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/hook/pythonpath.ps1'
+[16.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/hook/pythonpath.dsv'
+[16.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/hook/pythonpath.sh'
+[16.202s] Level 1:colcon.colcon_core.environment:checking '/home/antoni/gazebo_maritime_ws/install/bin'
+[16.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/package.ps1'
+[16.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/package.dsv'
+[16.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/package.sh'
+[16.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/package.bash'
+[16.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/package.zsh'
+[16.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antoni/gazebo_maritime_ws/install/share/colcon-core/packages/gazebo_maritime)
+[16.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.209s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.214s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.214s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.214s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.237s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.237s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoni/gazebo_maritime_ws/install/local_setup.ps1'
+[16.238s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antoni/gazebo_maritime_ws/install/_local_setup_util_ps1.py'
+[16.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoni/gazebo_maritime_ws/install/setup.ps1'
+[16.239s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoni/gazebo_maritime_ws/install/local_setup.sh'
+[16.240s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antoni/gazebo_maritime_ws/install/_local_setup_util_sh.py'
+[16.240s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoni/gazebo_maritime_ws/install/setup.sh'
+[16.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoni/gazebo_maritime_ws/install/local_setup.bash'
+[16.241s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoni/gazebo_maritime_ws/install/setup.bash'
+[16.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoni/gazebo_maritime_ws/install/local_setup.zsh'
+[16.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoni/gazebo_maritime_ws/install/setup.zsh'

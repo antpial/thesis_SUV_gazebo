@@ -1,0 +1,16 @@
+[0.343s] Invoking command in '/home/antoni/gazebo_maritime_ws/src/teleop_nav': PYTHONPATH=/home/antoni/gazebo_maritime_ws/build/teleop_nav/prefix_override:/home/antoni/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_nav build --build-base /home/antoni/gazebo_maritime_ws/build/teleop_nav/build install --record /home/antoni/gazebo_maritime_ws/build/teleop_nav/install.log --single-version-externally-managed install_data
+[0.462s] running egg_info
+[0.463s] writing ../../build/teleop_nav/teleop_nav.egg-info/PKG-INFO
+[0.463s] writing dependency_links to ../../build/teleop_nav/teleop_nav.egg-info/dependency_links.txt
+[0.463s] writing entry points to ../../build/teleop_nav/teleop_nav.egg-info/entry_points.txt
+[0.463s] writing requirements to ../../build/teleop_nav/teleop_nav.egg-info/requires.txt
+[0.463s] writing top-level names to ../../build/teleop_nav/teleop_nav.egg-info/top_level.txt
+[0.464s] reading manifest file '../../build/teleop_nav/teleop_nav.egg-info/SOURCES.txt'
+[0.464s] writing manifest file '../../build/teleop_nav/teleop_nav.egg-info/SOURCES.txt'
+[0.464s] running build
+[0.464s] running build_py
+[0.464s] running install
+[0.464s] running install_lib
+[0.466s] running install_data
+[0.466s] error: can't copy 'launch/bridge_launch.py': doesn't exist or not a regular file
+[0.478s] Invoked command in '/home/antoni/gazebo_maritime_ws/src/teleop_nav' returned '1': PYTHONPATH=/home/antoni/gazebo_maritime_ws/build/teleop_nav/prefix_override:/home/antoni/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_nav build --build-base /home/antoni/gazebo_maritime_ws/build/teleop_nav/build install --record /home/antoni/gazebo_maritime_ws/build/teleop_nav/install.log --single-version-externally-managed install_data

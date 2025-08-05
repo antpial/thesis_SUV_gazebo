@@ -1,0 +1,21 @@
+[0.353s] Invoking command in '/home/antoni/gazebo_maritime_ws/src/teleop_nav': PYTHONPATH=/home/antoni/gazebo_maritime_ws/build/teleop_nav/prefix_override:/home/antoni/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_nav build --build-base /home/antoni/gazebo_maritime_ws/build/teleop_nav/build install --record /home/antoni/gazebo_maritime_ws/build/teleop_nav/install.log --single-version-externally-managed install_data
+[0.474s] running egg_info
+[0.474s] writing ../../build/teleop_nav/teleop_nav.egg-info/PKG-INFO
+[0.474s] writing dependency_links to ../../build/teleop_nav/teleop_nav.egg-info/dependency_links.txt
+[0.475s] writing entry points to ../../build/teleop_nav/teleop_nav.egg-info/entry_points.txt
+[0.475s] writing requirements to ../../build/teleop_nav/teleop_nav.egg-info/requires.txt
+[0.475s] writing top-level names to ../../build/teleop_nav/teleop_nav.egg-info/top_level.txt
+[0.476s] reading manifest file '../../build/teleop_nav/teleop_nav.egg-info/SOURCES.txt'
+[0.476s] writing manifest file '../../build/teleop_nav/teleop_nav.egg-info/SOURCES.txt'
+[0.476s] running build
+[0.476s] running build_py
+[0.476s] running install
+[0.476s] running install_lib
+[0.477s] running install_data
+[0.477s] running install_egg_info
+[0.478s] removing '/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav-0.0.0-py3.10.egg-info' (and everything under it)
+[0.478s] Copying ../../build/teleop_nav/teleop_nav.egg-info to /home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav-0.0.0-py3.10.egg-info
+[0.479s] running install_scripts
+[0.490s] Installing teleop_nav script to /home/antoni/gazebo_maritime_ws/install/lib/teleop_nav
+[0.490s] writing list of installed files to '/home/antoni/gazebo_maritime_ws/build/teleop_nav/install.log'
+[0.505s] Invoked command in '/home/antoni/gazebo_maritime_ws/src/teleop_nav' returned '0': PYTHONPATH=/home/antoni/gazebo_maritime_ws/build/teleop_nav/prefix_override:/home/antoni/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_nav build --build-base /home/antoni/gazebo_maritime_ws/build/teleop_nav/build install --record /home/antoni/gazebo_maritime_ws/build/teleop_nav/install.log --single-version-externally-managed install_data

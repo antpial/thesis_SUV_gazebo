@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_nav = teleop_nav.teleop_nav:main
+

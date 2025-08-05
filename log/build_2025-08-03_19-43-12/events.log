@@ -1,0 +1,235 @@
+[0.000000] (-) TimerEvent: {}
+[0.000262] (gazebo_maritime) JobQueued: {'identifier': 'gazebo_maritime', 'dependencies': OrderedDict()}
+[0.000300] (teleop_nav) JobQueued: {'identifier': 'teleop_nav', 'dependencies': OrderedDict()}
+[0.000337] (gazebo_maritime) JobStarted: {'identifier': 'gazebo_maritime'}
+[0.006279] (teleop_nav) JobStarted: {'identifier': 'teleop_nav'}
+[0.010924] (gazebo_maritime) JobProgress: {'identifier': 'gazebo_maritime', 'progress': 'cmake'}
+[0.011320] (gazebo_maritime) JobProgress: {'identifier': 'gazebo_maritime', 'progress': 'build'}
+[0.011807] (gazebo_maritime) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime', '--', '-j12', '-l12'], 'cwd': '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/antoni/gazebo_maritime_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models'), ('USER', 'antoni'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/antoni/gazebo_maritime_ws/install/lib'), ('HOME', '/home/antoni'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '4819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/antoni/gazebo_maritime_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'antoni'), ('_', '/home/antoni/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'antoni'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/antoni/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/antoni-HP:@/tmp/.ICE-unix/1101,unix/antoni-HP:/tmp/.ICE-unix/1101'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/579ec979_6b71_4316_a3a0_5368c22fc897'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QJCHA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/antoni/gazebo_maritime_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.094345] (gazebo_maritime) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/Waves.dir/src/Wavefield.cc.o\x1b[0m\n'}
+[0.099350] (-) TimerEvent: {}
+[0.199668] (-) TimerEvent: {}
+[0.300312] (-) TimerEvent: {}
+[0.400678] (-) TimerEvent: {}
+[0.501202] (-) TimerEvent: {}
+[0.601540] (-) TimerEvent: {}
+[0.629016] (teleop_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_nav', 'build', '--build-base', '/home/antoni/gazebo_maritime_ws/build/teleop_nav/build', 'install', '--record', '/home/antoni/gazebo_maritime_ws/build/teleop_nav/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/antoni/gazebo_maritime_ws/src/teleop_nav', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': ':/home/antoni/gazebo_maritime_ws/install/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models', 'USER': 'antoni', 'LC_TIME': 'pl_PL.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/antoni/gazebo_maritime_ws/install/lib', 'HOME': '/home/antoni', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pl_PL.UTF-8', 'SYSTEMD_EXEC_PID': '4819', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/antoni/gazebo_maritime_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'antoni', '_': '/home/antoni/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'antoni', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/antoni/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/antoni-HP:@/tmp/.ICE-unix/1101,unix/antoni-HP:/tmp/.ICE-unix/1101', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/579ec979_6b71_4316_a3a0_5368c22fc897', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QJCHA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/antoni/gazebo_maritime_ws/install:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/antoni/gazebo_maritime_ws/build/teleop_nav', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/antoni/gazebo_maritime_ws/build/teleop_nav/prefix_override:/home/antoni/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages:/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pl_PL.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.701655] (-) TimerEvent: {}
+[0.802268] (-) TimerEvent: {}
+[0.840351] (teleop_nav) StdoutLine: {'line': b'running egg_info\n'}
+[0.841459] (teleop_nav) StdoutLine: {'line': b'writing ../../build/teleop_nav/teleop_nav.egg-info/PKG-INFO\n'}
+[0.841717] (teleop_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_nav/teleop_nav.egg-info/dependency_links.txt\n'}
+[0.841877] (teleop_nav) StdoutLine: {'line': b'writing entry points to ../../build/teleop_nav/teleop_nav.egg-info/entry_points.txt\n'}
+[0.842033] (teleop_nav) StdoutLine: {'line': b'writing requirements to ../../build/teleop_nav/teleop_nav.egg-info/requires.txt\n'}
+[0.842171] (teleop_nav) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_nav/teleop_nav.egg-info/top_level.txt\n'}
+[0.844804] (teleop_nav) StdoutLine: {'line': b"reading manifest file '../../build/teleop_nav/teleop_nav.egg-info/SOURCES.txt'\n"}
+[0.845418] (teleop_nav) StdoutLine: {'line': b"writing manifest file '../../build/teleop_nav/teleop_nav.egg-info/SOURCES.txt'\n"}
+[0.845531] (teleop_nav) StdoutLine: {'line': b'running build\n'}
+[0.845602] (teleop_nav) StdoutLine: {'line': b'running build_py\n'}
+[0.845701] (teleop_nav) StdoutLine: {'line': b'running install\n'}
+[0.845895] (teleop_nav) StdoutLine: {'line': b'running install_lib\n'}
+[0.847737] (teleop_nav) StdoutLine: {'line': b'running install_data\n'}
+[0.847922] (teleop_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.850507] (teleop_nav) StdoutLine: {'line': b"removing '/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.851140] (teleop_nav) StdoutLine: {'line': b'Copying ../../build/teleop_nav/teleop_nav.egg-info to /home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav-0.0.0-py3.10.egg-info\n'}
+[0.853849] (teleop_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[0.882411] (teleop_nav) StdoutLine: {'line': b'Installing teleop_nav script to /home/antoni/gazebo_maritime_ws/install/lib/teleop_nav\n'}
+[0.883255] (teleop_nav) StdoutLine: {'line': b"writing list of installed files to '/home/antoni/gazebo_maritime_ws/build/teleop_nav/install.log'\n"}
+[0.902470] (-) TimerEvent: {}
+[0.930331] (teleop_nav) CommandEnded: {'returncode': 0}
+[0.947321] (teleop_nav) JobEnded: {'identifier': 'teleop_nav', 'rc': 0}
+[1.002518] (-) TimerEvent: {}
+[1.103164] (-) TimerEvent: {}
+[1.204050] (-) TimerEvent: {}
+[1.304903] (-) TimerEvent: {}
+[1.405806] (-) TimerEvent: {}
+[1.506709] (-) TimerEvent: {}
+[1.607142] (-) TimerEvent: {}
+[1.707520] (-) TimerEvent: {}
+[1.807885] (-) TimerEvent: {}
+[1.908564] (-) TimerEvent: {}
+[2.009156] (-) TimerEvent: {}
+[2.109628] (-) TimerEvent: {}
+[2.210157] (-) TimerEvent: {}
+[2.310829] (-) TimerEvent: {}
+[2.411266] (-) TimerEvent: {}
+[2.513898] (-) TimerEvent: {}
+[2.614546] (-) TimerEvent: {}
+[2.715203] (-) TimerEvent: {}
+[2.816091] (-) TimerEvent: {}
+[2.916622] (-) TimerEvent: {}
+[3.017199] (-) TimerEvent: {}
+[3.118220] (-) TimerEvent: {}
+[3.218956] (-) TimerEvent: {}
+[3.319729] (-) TimerEvent: {}
+[3.420153] (-) TimerEvent: {}
+[3.520834] (-) TimerEvent: {}
+[3.621316] (-) TimerEvent: {}
+[3.721946] (-) TimerEvent: {}
+[3.822662] (-) TimerEvent: {}
+[3.923242] (-) TimerEvent: {}
+[4.023704] (-) TimerEvent: {}
+[4.124076] (-) TimerEvent: {}
+[4.224576] (-) TimerEvent: {}
+[4.325137] (-) TimerEvent: {}
+[4.425611] (-) TimerEvent: {}
+[4.526050] (-) TimerEvent: {}
+[4.626403] (-) TimerEvent: {}
+[4.727146] (-) TimerEvent: {}
+[4.827636] (-) TimerEvent: {}
+[4.928342] (-) TimerEvent: {}
+[5.029219] (-) TimerEvent: {}
+[5.129525] (-) TimerEvent: {}
+[5.229839] (-) TimerEvent: {}
+[5.330169] (-) TimerEvent: {}
+[5.430459] (-) TimerEvent: {}
+[5.531053] (-) TimerEvent: {}
+[5.579134] (gazebo_maritime) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libWaves.so\x1b[0m\n'}
+[5.631436] (-) TimerEvent: {}
+[5.732689] (-) TimerEvent: {}
+[5.833566] (-) TimerEvent: {}
+[5.934155] (-) TimerEvent: {}
+[6.034735] (-) TimerEvent: {}
+[6.135398] (-) TimerEvent: {}
+[6.160246] (gazebo_maritime) StdoutLine: {'line': b'[ 25%] Built target Waves\n'}
+[6.235581] (-) TimerEvent: {}
+[6.239399] (gazebo_maritime) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/PublisherPlugin.dir/src/PublisherPlugin.cc.o\x1b[0m\n'}
+[6.240224] (gazebo_maritime) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Surface.dir/src/Surface.cc.o\x1b[0m\n'}
+[6.245538] (gazebo_maritime) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/WaveVisual.dir/src/WaveVisual.cc.o\x1b[0m\n'}
+[6.335742] (-) TimerEvent: {}
+[6.436357] (-) TimerEvent: {}
+[6.536864] (-) TimerEvent: {}
+[6.637729] (-) TimerEvent: {}
+[6.738282] (-) TimerEvent: {}
+[6.839508] (-) TimerEvent: {}
+[6.939795] (-) TimerEvent: {}
+[7.040100] (-) TimerEvent: {}
+[7.140510] (-) TimerEvent: {}
+[7.240881] (-) TimerEvent: {}
+[7.341372] (-) TimerEvent: {}
+[7.442023] (-) TimerEvent: {}
+[7.542577] (-) TimerEvent: {}
+[7.642881] (-) TimerEvent: {}
+[7.743200] (-) TimerEvent: {}
+[7.843541] (-) TimerEvent: {}
+[7.943947] (-) TimerEvent: {}
+[8.044351] (-) TimerEvent: {}
+[8.144809] (-) TimerEvent: {}
+[8.245387] (-) TimerEvent: {}
+[8.345941] (-) TimerEvent: {}
+[8.446477] (-) TimerEvent: {}
+[8.546882] (-) TimerEvent: {}
+[8.647486] (-) TimerEvent: {}
+[8.748990] (-) TimerEvent: {}
+[8.849780] (-) TimerEvent: {}
+[8.950780] (-) TimerEvent: {}
+[9.051858] (-) TimerEvent: {}
+[9.152540] (-) TimerEvent: {}
+[9.253374] (-) TimerEvent: {}
+[9.354837] (-) TimerEvent: {}
+[9.455545] (-) TimerEvent: {}
+[9.556244] (-) TimerEvent: {}
+[9.657029] (-) TimerEvent: {}
+[9.758166] (-) TimerEvent: {}
+[9.858994] (-) TimerEvent: {}
+[9.959446] (-) TimerEvent: {}
+[10.059805] (-) TimerEvent: {}
+[10.160584] (-) TimerEvent: {}
+[10.260874] (-) TimerEvent: {}
+[10.361206] (-) TimerEvent: {}
+[10.461588] (-) TimerEvent: {}
+[10.561936] (-) TimerEvent: {}
+[10.662279] (-) TimerEvent: {}
+[10.762636] (-) TimerEvent: {}
+[10.863008] (-) TimerEvent: {}
+[10.963511] (-) TimerEvent: {}
+[11.063871] (-) TimerEvent: {}
+[11.164286] (-) TimerEvent: {}
+[11.212252] (gazebo_maritime) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libPublisherPlugin.so\x1b[0m\n'}
+[11.264465] (-) TimerEvent: {}
+[11.364945] (-) TimerEvent: {}
+[11.465924] (-) TimerEvent: {}
+[11.566554] (-) TimerEvent: {}
+[11.568788] (gazebo_maritime) StdoutLine: {'line': b'[ 75%] Built target PublisherPlugin\n'}
+[11.666703] (-) TimerEvent: {}
+[11.767301] (-) TimerEvent: {}
+[11.868552] (-) TimerEvent: {}
+[11.969121] (-) TimerEvent: {}
+[12.069910] (-) TimerEvent: {}
+[12.170564] (-) TimerEvent: {}
+[12.271218] (-) TimerEvent: {}
+[12.371986] (-) TimerEvent: {}
+[12.472725] (-) TimerEvent: {}
+[12.573251] (-) TimerEvent: {}
+[12.673568] (-) TimerEvent: {}
+[12.773935] (-) TimerEvent: {}
+[12.874270] (-) TimerEvent: {}
+[12.974627] (-) TimerEvent: {}
+[13.065563] (gazebo_maritime) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libSurface.so\x1b[0m\n'}
+[13.074883] (-) TimerEvent: {}
+[13.175526] (-) TimerEvent: {}
+[13.275937] (-) TimerEvent: {}
+[13.376547] (-) TimerEvent: {}
+[13.476943] (-) TimerEvent: {}
+[13.563458] (gazebo_maritime) StdoutLine: {'line': b'[ 87%] Built target Surface\n'}
+[13.577046] (-) TimerEvent: {}
+[13.677372] (-) TimerEvent: {}
+[13.777679] (-) TimerEvent: {}
+[13.877908] (-) TimerEvent: {}
+[13.978221] (-) TimerEvent: {}
+[14.078634] (-) TimerEvent: {}
+[14.179099] (-) TimerEvent: {}
+[14.279443] (-) TimerEvent: {}
+[14.379837] (-) TimerEvent: {}
+[14.480443] (-) TimerEvent: {}
+[14.581147] (-) TimerEvent: {}
+[14.681846] (-) TimerEvent: {}
+[14.782406] (-) TimerEvent: {}
+[14.882986] (-) TimerEvent: {}
+[14.983690] (-) TimerEvent: {}
+[15.041366] (gazebo_maritime) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libWaveVisual.so\x1b[0m\n'}
+[15.083845] (-) TimerEvent: {}
+[15.184647] (-) TimerEvent: {}
+[15.285247] (-) TimerEvent: {}
+[15.385911] (-) TimerEvent: {}
+[15.486544] (-) TimerEvent: {}
+[15.587358] (-) TimerEvent: {}
+[15.629549] (gazebo_maritime) StdoutLine: {'line': b'[100%] Built target WaveVisual\n'}
+[15.644631] (gazebo_maritime) CommandEnded: {'returncode': 0}
+[15.645559] (gazebo_maritime) JobProgress: {'identifier': 'gazebo_maritime', 'progress': 'install'}
+[15.663688] (gazebo_maritime) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime'], 'cwd': '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/antoni/gazebo_maritime_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models'), ('USER', 'antoni'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/antoni/gazebo_maritime_ws/install/lib'), ('HOME', '/home/antoni'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '4819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/antoni/gazebo_maritime_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'antoni'), ('_', '/home/antoni/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'antoni'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/antoni/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/antoni-HP:@/tmp/.ICE-unix/1101,unix/antoni-HP:/tmp/.ICE-unix/1101'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/579ec979_6b71_4316_a3a0_5368c22fc897'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QJCHA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/antoni/gazebo_maritime_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[15.673937] (gazebo_maritime) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.674221] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libWaves.so\n'}
+[15.674902] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libPublisherPlugin.so\n'}
+[15.675752] (gazebo_maritime) StdoutLine: {'line': b'-- Set runtime path of "/home/antoni/gazebo_maritime_ws/install/lib/libPublisherPlugin.so" to ""\n'}
+[15.675906] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libSurface.so\n'}
+[15.677099] (gazebo_maritime) StdoutLine: {'line': b'-- Set runtime path of "/home/antoni/gazebo_maritime_ws/install/lib/libSurface.so" to ""\n'}
+[15.677299] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libWaveVisual.so\n'}
+[15.679944] (gazebo_maritime) StdoutLine: {'line': b'-- Set runtime path of "/home/antoni/gazebo_maritime_ws/install/lib/libWaveVisual.so" to ""\n'}
+[15.680522] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models\n'}
+[15.680650] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves\n'}
+[15.680729] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/meshes\n'}
+[15.680809] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/meshes/waterlow.dae\n'}
+[15.681061] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/model.sdf\n'}
+[15.681188] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials\n'}
+[15.681292] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures\n'}
+[15.681379] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures/skybox_lowres.dds\n'}
+[15.681508] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures/wave_normals.dds\n'}
+[15.681608] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs\n'}
+[15.681697] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs/GerstnerWaves_fs_330.glsl\n'}
+[15.681782] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs/GerstnerWaves_vs_330.glsl\n'}
+[15.681881] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/model.config\n'}
+[15.681979] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v\n'}
+[15.682054] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes\n'}
+[15.682139] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/WAM-V-Base.dae\n'}
+[15.682221] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/engine.dae\n'}
+[15.682364] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/WamV.png\n'}
+[15.682508] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/propeller.dae\n'}
+[15.682586] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/model.sdf\n'}
+[15.682655] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/model.config\n'}
+[15.682731] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/worlds\n'}
+[15.682983] (gazebo_maritime) StdoutLine: {'line': b'-- Up-to-date: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/worlds/sydney_regatta.sdf\n'}
+[15.683889] (gazebo_maritime) CommandEnded: {'returncode': 0}
+[15.687465] (-) TimerEvent: {}
+[15.698547] (gazebo_maritime) JobEnded: {'identifier': 'gazebo_maritime', 'rc': 0}
+[15.700525] (-) EventReactorShutdown: {}

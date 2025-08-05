@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/teleop_nav/teleop_nav.egg-info
+writing ../../build/teleop_nav/teleop_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/teleop_nav/teleop_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/teleop_nav/teleop_nav.egg-info/entry_points.txt
+writing requirements to ../../build/teleop_nav/teleop_nav.egg-info/requires.txt
+writing top-level names to ../../build/teleop_nav/teleop_nav.egg-info/top_level.txt
+writing manifest file '../../build/teleop_nav/teleop_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/teleop_nav/teleop_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/teleop_nav/teleop_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/antoni/gazebo_maritime_ws/build/teleop_nav/build
+creating /home/antoni/gazebo_maritime_ws/build/teleop_nav/build/lib
+creating /home/antoni/gazebo_maritime_ws/build/teleop_nav/build/lib/teleop_nav
+copying teleop_nav/teleop_nav.py -> /home/antoni/gazebo_maritime_ws/build/teleop_nav/build/lib/teleop_nav
+copying teleop_nav/__init__.py -> /home/antoni/gazebo_maritime_ws/build/teleop_nav/build/lib/teleop_nav
+running install
+running install_lib
+creating /home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav
+copying /home/antoni/gazebo_maritime_ws/build/teleop_nav/build/lib/teleop_nav/teleop_nav.py -> /home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav
+copying /home/antoni/gazebo_maritime_ws/build/teleop_nav/build/lib/teleop_nav/__init__.py -> /home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav
+byte-compiling /home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav/teleop_nav.py to teleop_nav.cpython-310.pyc
+byte-compiling /home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/teleop_nav -> /home/antoni/gazebo_maritime_ws/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/antoni/gazebo_maritime_ws/install/share/teleop_nav
+running install_egg_info
+Copying ../../build/teleop_nav/teleop_nav.egg-info to /home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages/teleop_nav-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/antoni/gazebo_maritime_ws/build/teleop_nav/install.log'

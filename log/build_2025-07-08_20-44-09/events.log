@@ -1,0 +1,404 @@
+[0.000000] (-) TimerEvent: {}
+[0.000084] (gazebo_maritime) JobQueued: {'identifier': 'gazebo_maritime', 'dependencies': OrderedDict()}
+[0.000540] (gazebo_maritime) JobStarted: {'identifier': 'gazebo_maritime'}
+[0.006906] (gazebo_maritime) JobProgress: {'identifier': 'gazebo_maritime', 'progress': 'cmake'}
+[0.007366] (gazebo_maritime) Command: {'cmd': ['/usr/bin/cmake', '/home/antoni/gazebo_maritime_ws/src/gazebo_maritime', '-DCMAKE_INSTALL_PREFIX=/home/antoni/gazebo_maritime_ws/install'], 'cwd': '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models:/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models:/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models'), ('USER', 'antoni'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib'), ('HOME', '/home/antoni'), ('OLDPWD', '/home/antoni/gazebo_maritime_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '1243'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/antoni/gazebo_maritime_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'antoni'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'antoni'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/antoni-HP:@/tmp/.ICE-unix/1006,unix/antoni-HP:/tmp/.ICE-unix/1006'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25730ec9_29a7_47ab_8800_8ebd5a4922e6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B4I882'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.267'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/antoni/gazebo_maritime_ws/install'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.057872] (gazebo_maritime) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099840] (-) TimerEvent: {}
+[0.111055] (gazebo_maritime) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.115854] (gazebo_maritime) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.198805] (gazebo_maritime) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199966] (-) TimerEvent: {}
+[0.207617] (gazebo_maritime) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.207885] (gazebo_maritime) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.208136] (gazebo_maritime) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.210658] (gazebo_maritime) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300210] (-) TimerEvent: {}
+[0.303119] (gazebo_maritime) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.311933] (gazebo_maritime) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.312151] (gazebo_maritime) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.312531] (gazebo_maritime) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.314709] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.9.0\n'}
+[0.319551] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[0.320511] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[0.320766] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[0.325754] (gazebo_maritime) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.341861] (gazebo_maritime) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.391006] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.391468] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[0.393573] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.393985] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.395552] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.395882] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.396031] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[0.397406] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[0.397680] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[0.399485] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[0.399765] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.399934] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.400104] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[0.400264] (-) TimerEvent: {}
+[0.401152] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.4\n'}
+[0.401385] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[0.401504] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[0.402226] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.4\n'}
+[0.402396] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[0.403486] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[0.403665] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[0.500514] (-) TimerEvent: {}
+[0.585900] (gazebo_maritime) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.594006] (gazebo_maritime) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.597603] (gazebo_maritime) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.600677] (-) TimerEvent: {}
+[0.612092] (gazebo_maritime) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.659599] (gazebo_maritime) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[0.667696] (gazebo_maritime) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.683607] (gazebo_maritime) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.700859] (-) TimerEvent: {}
+[0.724673] (gazebo_maritime) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[0.725278] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.727575] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[0.728152] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[0.749463] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.749987] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.801015] (-) TimerEvent: {}
+[0.901410] (-) TimerEvent: {}
+[0.915768] (gazebo_maritime) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.916815] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[0.917676] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.4.1\n'}
+[0.917971] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[0.918156] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[0.919259] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.4.1\n'}
+[0.919456] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[0.920245] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[0.921336] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[0.921481] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[0.921960] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.922146] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.922764] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.924184] (gazebo_maritime) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[0.931024] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[0.932562] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.7.1\n'}
+[0.932892] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[0.938779] (gazebo_maritime) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[0.956567] (gazebo_maritime) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[1.001660] (-) TimerEvent: {}
+[1.003098] (gazebo_maritime) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[1.010157] (gazebo_maritime) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.026659] (gazebo_maritime) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[1.076021] (gazebo_maritime) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[1.082904] (gazebo_maritime) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.098286] (gazebo_maritime) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[1.101771] (-) TimerEvent: {}
+[1.143610] (gazebo_maritime) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[1.150822] (gazebo_maritime) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.168150] (gazebo_maritime) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[1.201893] (-) TimerEvent: {}
+[1.213978] (gazebo_maritime) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[1.220847] (gazebo_maritime) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.237285] (gazebo_maritime) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[1.283193] (gazebo_maritime) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[1.284004] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[1.285891] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.7.1\n'}
+[1.286362] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[1.286970] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.287453] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[1.289445] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.7.1\n'}
+[1.289876] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[1.290416] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.295879] (gazebo_maritime) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.2.0") \n'}
+[1.296313] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[1.297952] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.7.1\n'}
+[1.298277] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[1.298741] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[1.300010] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.7.1\n'}
+[1.300241] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[1.301702] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.1\n'}
+[1.301909] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[1.301984] (-) TimerEvent: {}
+[1.392929] (gazebo_maritime) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.402257] (-) TimerEvent: {}
+[1.402593] (gazebo_maritime) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.417856] (gazebo_maritime) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.462484] (gazebo_maritime) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.470665] (gazebo_maritime) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.487009] (gazebo_maritime) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.502411] (-) TimerEvent: {}
+[1.530924] (gazebo_maritime) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.531372] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.532041] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.532410] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.533092] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.533336] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.533448] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.543977] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[1.545673] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.7.1\n'}
+[1.546298] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[1.547282] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.547532] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.549299] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.4.0\n'}
+[1.549515] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[1.566295] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.566487] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.566970] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.567278] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.567741] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[1.569774] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[1.570315] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[1.570560] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.570970] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[1.571192] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.571398] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[1.572512] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.1\n'}
+[1.572795] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[1.577143] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.577292] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.577558] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.577759] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.577852] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.583186] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[1.583335] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[1.583513] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[1.584458] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.7.1\n'}
+[1.584760] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[1.584925] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.585131] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.585657] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.585875] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[1.586053] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.586141] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[1.586846] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.4\n'}
+[1.587117] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.588015] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.590394] (gazebo_maritime) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[1.591013] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.601412] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.5.0\n'}
+[1.601590] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[1.601754] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.601962] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.602128] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.602327] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.602462] (-) TimerEvent: {}
+[1.603008] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[1.603722] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.5.0\n'}
+[1.603954] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[1.604140] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.604350] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[1.605228] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.5.0\n'}
+[1.605459] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[1.605645] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.605861] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[1.606614] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.5.0\n'}
+[1.606947] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[1.607148] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[1.608265] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.608456] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[1.620262] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.620723] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.621039] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[1.621378] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[1.621719] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.622118] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[1.622594] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[1.624128] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.2\n'}
+[1.624575] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[1.624998] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[1.626471] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.2\n'}
+[1.626889] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[1.627295] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[1.628925] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.2\n'}
+[1.629196] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[1.629468] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[1.630289] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.2\n'}
+[1.630464] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[1.630755] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[1.631571] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.2\n'}
+[1.631777] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[1.632022] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[1.632798] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.2\n'}
+[1.633035] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[1.633278] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[1.634085] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.2\n'}
+[1.634301] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[1.634541] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[1.635347] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.2\n'}
+[1.635565] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[1.635819] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[1.636618] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.2\n'}
+[1.636834] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[1.637043] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.637234] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[1.650701] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.650981] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.651331] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[1.651694] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[1.652020] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.652379] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[1.652517] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[1.654113] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.2\n'}
+[1.654517] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[1.655435] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[1.655734] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[1.657212] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.2\n'}
+[1.657408] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[1.657626] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.658103] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[1.658784] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2\n'}
+[1.659050] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[1.659268] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.659598] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[1.660421] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.2\n'}
+[1.660614] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[1.660823] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.661091] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[1.661934] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2\n'}
+[1.662134] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[1.662394] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[1.663226] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2\n'}
+[1.663414] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[1.663697] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[1.664528] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.2\n'}
+[1.664796] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[1.665005] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.665309] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[1.666225] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2\n'}
+[1.666372] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[1.666576] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.666851] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[1.667722] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2\n'}
+[1.667913] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[1.668181] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.668475] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[1.669321] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2\n'}
+[1.669510] (gazebo_maritime) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[1.670099] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[1.670255] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.670465] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.682740] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.682906] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.683083] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.683199] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[1.683295] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.683511] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[1.683900] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[1.684121] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.684223] (gazebo_maritime) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[1.684689] (gazebo_maritime) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.694596] (gazebo_maritime) StdoutLine: {'line': b'-- Generating done\n'}
+[1.697396] (gazebo_maritime) StdoutLine: {'line': b'-- Build files have been written to: /home/antoni/gazebo_maritime_ws/build/gazebo_maritime\n'}
+[1.702699] (-) TimerEvent: {}
+[1.705157] (gazebo_maritime) CommandEnded: {'returncode': 0}
+[1.705858] (gazebo_maritime) JobProgress: {'identifier': 'gazebo_maritime', 'progress': 'build'}
+[1.706776] (gazebo_maritime) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime', '--', '-j12', '-l12'], 'cwd': '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models:/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models:/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models'), ('USER', 'antoni'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib'), ('HOME', '/home/antoni'), ('OLDPWD', '/home/antoni/gazebo_maritime_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '1243'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/antoni/gazebo_maritime_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'antoni'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'antoni'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/antoni-HP:@/tmp/.ICE-unix/1006,unix/antoni-HP:/tmp/.ICE-unix/1006'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25730ec9_29a7_47ab_8800_8ebd5a4922e6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B4I882'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.267'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/antoni/gazebo_maritime_ws/install'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.758928] (gazebo_maritime) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/Waves.dir/src/Wavefield.cc.o\x1b[0m\n'}
+[1.802920] (-) TimerEvent: {}
+[1.903310] (-) TimerEvent: {}
+[2.003709] (-) TimerEvent: {}
+[2.104106] (-) TimerEvent: {}
+[2.204508] (-) TimerEvent: {}
+[2.305059] (-) TimerEvent: {}
+[2.405400] (-) TimerEvent: {}
+[2.505752] (-) TimerEvent: {}
+[2.606098] (-) TimerEvent: {}
+[2.706431] (-) TimerEvent: {}
+[2.806797] (-) TimerEvent: {}
+[2.907149] (-) TimerEvent: {}
+[3.007495] (-) TimerEvent: {}
+[3.107831] (-) TimerEvent: {}
+[3.208159] (-) TimerEvent: {}
+[3.308503] (-) TimerEvent: {}
+[3.408860] (-) TimerEvent: {}
+[3.509223] (-) TimerEvent: {}
+[3.609611] (-) TimerEvent: {}
+[3.669043] (gazebo_maritime) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libWaves.so\x1b[0m\n'}
+[3.709855] (-) TimerEvent: {}
+[3.806789] (gazebo_maritime) StdoutLine: {'line': b'[ 25%] Built target Waves\n'}
+[3.809960] (-) TimerEvent: {}
+[3.821403] (gazebo_maritime) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/PublisherPlugin.dir/src/PublisherPlugin.cc.o\x1b[0m\n'}
+[3.825210] (gazebo_maritime) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Surface.dir/src/Surface.cc.o\x1b[0m\n'}
+[3.826893] (gazebo_maritime) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/WaveVisual.dir/src/WaveVisual.cc.o\x1b[0m\n'}
+[3.910108] (-) TimerEvent: {}
+[4.010437] (-) TimerEvent: {}
+[4.110795] (-) TimerEvent: {}
+[4.211129] (-) TimerEvent: {}
+[4.311454] (-) TimerEvent: {}
+[4.411802] (-) TimerEvent: {}
+[4.512142] (-) TimerEvent: {}
+[4.612479] (-) TimerEvent: {}
+[4.712758] (-) TimerEvent: {}
+[4.813078] (-) TimerEvent: {}
+[4.913415] (-) TimerEvent: {}
+[5.013789] (-) TimerEvent: {}
+[5.114137] (-) TimerEvent: {}
+[5.214498] (-) TimerEvent: {}
+[5.314886] (-) TimerEvent: {}
+[5.415215] (-) TimerEvent: {}
+[5.515570] (-) TimerEvent: {}
+[5.615904] (-) TimerEvent: {}
+[5.716178] (-) TimerEvent: {}
+[5.816494] (-) TimerEvent: {}
+[5.871346] (gazebo_maritime) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libPublisherPlugin.so\x1b[0m\n'}
+[5.916653] (-) TimerEvent: {}
+[6.016994] (-) TimerEvent: {}
+[6.019972] (gazebo_maritime) StdoutLine: {'line': b'[ 75%] Built target PublisherPlugin\n'}
+[6.117224] (-) TimerEvent: {}
+[6.217647] (-) TimerEvent: {}
+[6.318064] (-) TimerEvent: {}
+[6.418457] (-) TimerEvent: {}
+[6.518856] (-) TimerEvent: {}
+[6.619247] (-) TimerEvent: {}
+[6.719629] (-) TimerEvent: {}
+[6.820013] (-) TimerEvent: {}
+[6.920400] (-) TimerEvent: {}
+[6.981108] (gazebo_maritime) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libSurface.so\x1b[0m\n'}
+[7.020644] (-) TimerEvent: {}
+[7.121075] (-) TimerEvent: {}
+[7.187232] (gazebo_maritime) StdoutLine: {'line': b'[ 87%] Built target Surface\n'}
+[7.221306] (-) TimerEvent: {}
+[7.321691] (-) TimerEvent: {}
+[7.422059] (-) TimerEvent: {}
+[7.522433] (-) TimerEvent: {}
+[7.622807] (-) TimerEvent: {}
+[7.723087] (-) TimerEvent: {}
+[7.823485] (-) TimerEvent: {}
+[7.871175] (gazebo_maritime) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libWaveVisual.so\x1b[0m\n'}
+[7.923717] (-) TimerEvent: {}
+[8.024110] (-) TimerEvent: {}
+[8.060856] (gazebo_maritime) StdoutLine: {'line': b'[100%] Built target WaveVisual\n'}
+[8.070749] (gazebo_maritime) CommandEnded: {'returncode': 0}
+[8.071751] (gazebo_maritime) JobProgress: {'identifier': 'gazebo_maritime', 'progress': 'install'}
+[8.085278] (gazebo_maritime) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime'], 'cwd': '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models:/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models:/home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models'), ('USER', 'antoni'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib:/home/antoni/gazebo_maritime_ws/install/lib'), ('HOME', '/home/antoni'), ('OLDPWD', '/home/antoni/gazebo_maritime_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '1243'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/antoni/gazebo_maritime_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'antoni'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'antoni'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/antoni-HP:@/tmp/.ICE-unix/1006,unix/antoni-HP:/tmp/.ICE-unix/1006'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25730ec9_29a7_47ab_8800_8ebd5a4922e6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B4I882'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.267'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/antoni/gazebo_maritime_ws/install'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/antoni/gazebo_maritime_ws/build/gazebo_maritime'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/antoni/gazebo_maritime_ws/install/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[8.094394] (gazebo_maritime) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.094630] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libWaves.so\n'}
+[8.095305] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libPublisherPlugin.so\n'}
+[8.096071] (gazebo_maritime) StdoutLine: {'line': b'-- Set runtime path of "/home/antoni/gazebo_maritime_ws/install/lib/libPublisherPlugin.so" to ""\n'}
+[8.096291] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libSurface.so\n'}
+[8.097109] (gazebo_maritime) StdoutLine: {'line': b'-- Set runtime path of "/home/antoni/gazebo_maritime_ws/install/lib/libSurface.so" to ""\n'}
+[8.097314] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/lib/libWaveVisual.so\n'}
+[8.098456] (gazebo_maritime) StdoutLine: {'line': b'-- Set runtime path of "/home/antoni/gazebo_maritime_ws/install/lib/libWaveVisual.so" to ""\n'}
+[8.098652] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models\n'}
+[8.098740] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves\n'}
+[8.098818] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/meshes\n'}
+[8.098896] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/meshes/waterlow.dae\n'}
+[8.104882] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/model.sdf\n'}
+[8.105054] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials\n'}
+[8.105122] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures\n'}
+[8.105184] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures/skybox_lowres.dds\n'}
+[8.105319] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/textures/wave_normals.dds\n'}
+[8.105487] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs\n'}
+[8.105588] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs/GerstnerWaves_fs_330.glsl\n'}
+[8.105660] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/materials/programs/GerstnerWaves_vs_330.glsl\n'}
+[8.105796] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/coast_waves/model.config\n'}
+[8.105881] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v\n'}
+[8.105945] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes\n'}
+[8.106007] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/WAM-V-Base.dae\n'}
+[8.106171] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/engine.dae\n'}
+[8.106271] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/WamV.png\n'}
+[8.106976] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/meshes/propeller.dae\n'}
+[8.107073] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/model.sdf\n'}
+[8.107219] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/models/wam-v/model.config\n'}
+[8.107313] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/worlds\n'}
+[8.107380] (gazebo_maritime) StdoutLine: {'line': b'-- Installing: /home/antoni/gazebo_maritime_ws/install/share/gazebo_maritime/worlds/sydney_regatta.sdf\n'}
+[8.108499] (gazebo_maritime) CommandEnded: {'returncode': 0}
+[8.114510] (gazebo_maritime) JobEnded: {'identifier': 'gazebo_maritime', 'rc': 0}
+[8.114832] (-) EventReactorShutdown: {}
