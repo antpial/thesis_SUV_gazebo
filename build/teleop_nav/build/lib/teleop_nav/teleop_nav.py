@@ -151,8 +151,8 @@ def main():
         TwistMsg = geometry_msgs.msg.Twist
 
     # pub = node.create_publisher(TwistMsg, 'cmd_vel', 10)
-    left_pub = node.create_publisher(Float64, '/model/wamV/joint/left_engine_propeller_joint/cmd_thrust', 10)
-    right_pub = node.create_publisher(Float64, '/model/wamV/joint/right_engine_propeller_joint/cmd_thrust', 10)
+    left_pub = node.create_publisher(Float64, '/left_propeller_thrust', 10)
+    right_pub = node.create_publisher(Float64, '/right_propeller_thrust', 10)
 
 
 
